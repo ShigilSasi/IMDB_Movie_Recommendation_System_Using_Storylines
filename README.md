@@ -108,5 +108,6 @@ Install Dependencies
     pip install streamlit pandas scikit-learn selenium
 
 Run the Streamlit App
+
     streamlit run app.py
 
