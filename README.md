@@ -28,3 +28,18 @@ Users can:
 5. User-controlled number of recommendations
 
 6. Fast performance using Streamlit caching
+
+
+# Tech Stack
+
+ - Python
+
+ - Selenium – Web scraping
+
+ - Pandas & NumPy – Data processing
+
+ - Scikit-learn – TF-IDF & similarity computation
+
+ - Streamlit – Web application
+
+ - IMDb – Data source
