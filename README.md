@@ -9,11 +9,11 @@ This project scrapes IMDb movie data for films released in 2024 and builds a mov
 
 Users can:
 
-    Enter a movie name or describe a movie in their own words
+    1. Enter a movie name or describe a movie in their own words
 
-    Choose how many recommendations they want
+    2. Choose how many recommendations they want
 
-    Get the most relevant movie suggestions instantly via a web interface
+    3. Get the most relevant movie suggestions instantly via a web interface
 
 # Features
 
