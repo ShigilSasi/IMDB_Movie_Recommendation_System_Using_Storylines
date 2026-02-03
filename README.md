@@ -9,11 +9,11 @@ This project scrapes IMDb movie data for films released in 2024 and builds a mov
 
 Users can:
 
-    1. Enter a movie name or describe a movie in their own words
+  - Enter a movie name or describe a movie in their own words
 
-    2. Choose how many recommendations they want
+  - Choose how many recommendations they want
 
-    3. Get the most relevant movie suggestions instantly via a web interface
+  - Get the most relevant movie suggestions instantly via a web interface
 
 # Features
 
@@ -43,3 +43,70 @@ Users can:
  - Streamlit – Web application
 
  - IMDb – Data source
+
+
+# Project Structure
+├── imdb_scraper.py              # IMDb web scraping script
+├── imdb_2024_movies.csv         # Scraped movie dataset
+├── app.py                       # Streamlit application
+├── README.md                    # Project documentation
+
+
+# Dataset Details
+
+Source: IMDb Advanced Movie Search
+
+Year: 2024
+
+Total Movies: ~10,000
+
+Columns:
+
+   - Movie Title
+
+   - Storyline
+
+
+# How the Recommendation System Works
+
+Data Preparation
+
+  - Movie title and storyline are combined into a single text feature.
+
+  - Duplicate records are removed.
+
+Text Vectorization
+
+  - TF-IDF Vectorizer converts text into numerical vectors.
+
+  - Uses unigrams and bigrams with English stopwords removed.
+
+Similarity Calculation
+
+  - Cosine similarity measures how close the user query is to each movie.
+
+Recommendation
+
+  - Top-N most similar movies are returned based on user preference.
+
+
+# Streamlit Application
+User Inputs:
+
+  - Movie name or custom description
+
+  - Number of recommendations (slider)
+
+Output:
+
+  - List of recommended movies with storylines
+
+
+# How to Run the Project
+Install Dependencies
+
+    pip install streamlit pandas scikit-learn selenium
+
+Run the Streamlit App
+    streamlit run app.py
+
