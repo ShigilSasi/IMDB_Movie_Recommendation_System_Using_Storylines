@@ -17,14 +17,14 @@ Users can:
 
 # Features
 
-Web scraping of IMDb 2024 movies using Selenium
+1. Web scraping of IMDb 2024 movies using Selenium
 
-Cleaned and processed dataset (~10,000 movies)
+2. Cleaned and processed dataset (~10,000 movies)
 
-Content-based recommendation using TF-IDF & Cosine Similarity
+3. Content-based recommendation using TF-IDF & Cosine Similarity
 
-Interactive Streamlit web application
+4. Interactive Streamlit web application
 
-User-controlled number of recommendations
+5. User-controlled number of recommendations
 
-Fast performance using Streamlit caching
+6. Fast performance using Streamlit caching
